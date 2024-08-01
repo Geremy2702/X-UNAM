@@ -12,7 +12,7 @@ const io = new Server(server, {
 		methods: ["GET", "POST"],
 	},
 });
-
+//localmente: http://localhost:3000   en la nube: / 
 export const getRecipientSocketId = (recipientId) => {
 	return userSocketMap[recipientId];
 };
